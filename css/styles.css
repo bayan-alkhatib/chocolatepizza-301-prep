@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width:80%;
+    margin:0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 25px 0;
+    margin-bottom: 30px;
+    /* padding-bottom:50px ; */
+}
+
+#logo{
+    width: 50%;
+    float: left;
+}
+
+header span{
+display: inline-block;
+}
+
+header span h1{
+    font-size: 40px;
+}
+
+header span h2{
+    font-size:x-small;
+}
+
+#icons{
+    width:50% ;
+float: right;
+text-align: right;
+}
+
+
+header hr, footer hr{
+    display:block ;
+    width:100%;
+    padding: 10px;
+    background-image: url("../assets/hr-img.png");
+    background-repeat: repeat;
+    border: none;
+    margin-top:20px;
+}
+main {
+    width:100%;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+main section{
+    width:100%;
+}
+
+main section:first-child div:first-child{
+    float: left;
+
+}
+
+main section:first-child div:nth-child(2){
+    float: right;
+}
+
+main section:first-child div:first-child h1{
+    font-size:40px;
+    font-weight: bold;
+}
+
+main section:first-child div:first-child h2{
+    font-size: small;
+}
+
+main section:first-child div:nth-child(2) span{
+    font-size: small;
+    color:rgb(143, 143, 143);
+}
+main section:first-child> img{
+    width:100%;
+    margin:auto;
+    margin-top:40px;
+
+}
+
+main section p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-indent: 30px;
+}
+
+main form {
+    width:100%;
+  
+}
+main form ul{
+    width: 50%;
+    float:left ;
+    font-size: large;
+    background-image:url(../assets/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height:40vh;
+}
+
+main form ul li{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+   
+
+footer #part1 span:nth-child(2){
+   display: inline-block;
+    width:60%;
+}
+
+footer #part1 span:nth-child(2) h1{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-left:15px;
+}
+
+footer #part1 span:nth-child(2) p{
+    font-size: large;
+    margin-left:15px;
+}
+
+footer #part1 span:nth-child(3){
+     width:25%;
+     margin-left:190px;
+ }
+
+ footer #part1 span:nth-child(3) button{
+     padding: 15px 25px;
+     vertical-align:30px;
+    background-color: rgba(179, 64, 64, 0.932);
+    color: white;
+    border:none;
+ }
